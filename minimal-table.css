@@ -1,0 +1,35 @@
+html {
+  font-family: sans-serif;
+}
+
+caption {
+  padding: 10px;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+  font-size: 0.9rem;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 0.5em;
+  padding: 10px 20px;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
